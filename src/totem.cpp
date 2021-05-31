@@ -80,7 +80,7 @@ void Totem::init_buffer() noexcept {
             } continue;
         }
 
-        if(ch == 'q') { break; }
+        if(tolower(ch) == 'q') { break; }
     }
 
     enable_cursor(); clear();
