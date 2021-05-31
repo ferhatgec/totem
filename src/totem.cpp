@@ -42,7 +42,7 @@ void Totem::init(std::string const filename) noexcept {
 
 void Totem::init_buffer() noexcept {
     clear(); to_up();
-    this->__down = (this->__h / 1.40);
+    this->__down = (this->__h / 1.05);
 
     this->from(false);
     disable_cursor();
